@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.jua {font-family: 'Jua', sans-serif;}
+.roboto {font-family: 'Roboto', sans-serif;}
+.song_myung {font-family: 'Song Myung', serif;}
+.oswald {font-family: 'Oswald', sans-serif;}
+.anton {font-family: 'Anton', sans-serif;}
+
+div {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+}
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+#wrap::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.font_set01 {
+    background: #D9736A;
+    float: left;
+}
+.font_set02 {
+    background: #BF9075;
+    float: left;
+}
+.font_set03 {
+    background: #F2D1B3;
+    float: left;
+}
+.font_set04 {
+    background: #8C5B30;
+    float: left;
+}
+.font_set05 {
+    background: #D1D9D0;
+    float: left;
+}

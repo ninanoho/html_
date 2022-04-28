@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1S2J</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <style>
+        body {
+            width: 1920px;
+            margin: 0 auto;
+            font-family: 'Noto Sans', 'Noto Sans KR',sans-serif;
+            background-color: #bfe4e2;
+            background: -webkit-linear-gradient(#bfe4e2, #fff1cb);
+            background-repeat: no-repeat;
+        }
+        #wrap {
+            width: 1720px;
+            margin: 0 auto;
+        }
+        header {
+            margin-top: 50px;
+            text-align: center;
+        }
+        header::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        /* logo */
+        h1 {
+            float: left;
+        }
+        nav ul li {
+            margin: 5px 0 0 50px;
+            font-size: 14px;
+            font-weight: bold;
+            float: left;
+        }
+        nav ul li a:hover,
+        nav ul li a:focus {
+            color: rgb(73, 162, 198);
+        }
+        .icon img{
+            width: 24px;
+            margin: 3px 0 0 20px;
+            float: right;
+        }
+        section {
+            height: 790px;
+            padding-top: 80px;
+            color: black;
+            position: relative;
+        }
+        .box1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+            font-size: 90px;
+            line-height: 1.2em;
+            letter-spacing: 0.2px;
+            word-spacing: -5px;
+        }
+        .box2 {
+            width: 1100px;
+            padding-top: 25px;
+        }
+        h2 {
+            width: 120px;
+            height: 120px;
+            background-color: #86d0cf;
+            border-radius: 50%;
+            position: absolute;
+            left: 0px;
+            bottom: 90px;
+            z-index: 0;
+        }
+        .box3 p {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2f605f;
+            position: absolute;
+            left: 80px;
+            bottom: 138px;
+            z-index: 1;
+        }
+        .insta img {
+            /*width: 517px;
+            height: 827px;*/
+            position: absolute;
+            right: 0px;
+            bottom: 75px;
+            z-index: 0;
+        }
+        footer {
+            height: 40px;
+            line-height: 40px;
+            color: rgb(76, 76, 76);
+            text-align: center;
+            padding-bottom: 60px;
+        }
+        video {
+            width: 1000px;
+            height: 600px;
+        }
+        figcaption {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2f605f;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1><a href="./1s2j_travel.html"><img class="logo" src="./images/logo2_2.png" alt="logo"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="./1s2j_travel_suzy.html">SUZY</a></li>
+                    <li><a href="./1s2j_travel_nara.html">NARA</a></li>
+                    <li><a href="./1s2j_travel_hyeonseong.html">HYEONSEONG</a></li>
+                    <li><a href="./1s2j_travel_dain.html">DAIN</a></li>
+                    <li><a href="./1s2j_travel_yujin.html">YUJIN</a></li>
+                </ul>
+            </nav>
+            <div class="icon">
+                <img src="./images/finder.png" alt="icon" width="24px" height="24px">
+                <img src="./images/profile.png " alt="icon" width="24px" height="24px">
+            </div>
+        </header>
+        <main role="main">
+            <section>
+                    <figure>
+                        <figcaption>> ULLEUNGDO ISLAND</figcaption>
+                        <video muted autoplay loop>
+                            <source src="./videos/Ulleungdo.mp4" type="video/mp4">
+                            이 영상을 보고 싶으시면 최신 브라우저를 설치하세요.
+                        </video>                        
+                    </figure>
+                <div class="insta">
+                    <img src="./images/insta.jpg" alt="insta" width="417px" height="627px">
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>COPYRIGHT 2022 1S2J ALL RIGHTS RESERVED</footer>
+</body>
+</html>
